@@ -1,8 +1,8 @@
 ---
 layout: post
 author: Jess
-published: false
-title: a new thing
+published: true
+title: a new thing.markdown
 ---
 
 ## A new thing
