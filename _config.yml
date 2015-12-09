@@ -31,21 +31,6 @@ prose:
     - /public
     - /blog
   metadata:
-    "":
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Published"
-          value: false
     _posts:
       - name: "layout"
         field:
@@ -61,3 +46,25 @@ prose:
           element: "checkbox"
           label: "Published"
           value: false
+      - name: "author"
+        field:
+          element: "select"
+          label: "Who are you ?"
+          placeholder: "Choose your name"
+          options:
+            - name: "Dimitri"
+              value: "Dimitri"
+            - name: "Julien"
+              value: "Julien"
+            - name: "ImaCrea"
+              value: "ImaCrea"
+            - name: "Louise"
+              value: "Louise"
+            - name: "Ludovic"
+              value: "Ludovic"
+            - name: "Maxime"
+              value: "Maxime"
+            - name: "Olivier"
+              value: "Olivier"
+            - name: "MailTape Crew"
+              value: "MailTape Crew"
