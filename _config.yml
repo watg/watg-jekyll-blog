@@ -22,7 +22,7 @@ markdown: kramdown
 
 prose:
   ignore:
-    - /\..*
+    - /\.*
     - /_config.yml
     - /about.md
     - /LICENSE.md
@@ -35,11 +35,11 @@ prose:
         field:
           element: "hidden"
           value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
+      # - name: "title"
+      #   field:
+      #     element: "text"
+      #     label: "Title"
+      #     value: ""
       - name: "author"
         field:
           element: "select"
