@@ -24,12 +24,11 @@ prose:
   ignore:
     - /\..*
     - /_config.yml
-    - /atom.xml
+    - /about.md
     - /LICENSE.md
     - /_layouts
     - /_includes
-    - /public
-    - /blog
+    - /_sass
   metadata:
     _posts:
       - name: "layout"
@@ -41,11 +40,6 @@ prose:
           element: "text"
           label: "Title"
           value: ""
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Published"
-          value: false
       - name: "author"
         field:
           element: "select"
