@@ -35,22 +35,8 @@ prose:
         field:
           element: "hidden"
           value: "post"
-      # - name: "title"
-      #   field:
-      #     element: "text"
-      #     label: "Title"
-      #     value: ""
-      - name: "author"
+      - name: "title"
         field:
-          element: "select"
-          label: "Who are you ?"
-          placeholder: "Choose your name"
-          options:
-            - name: "Jess"
-              value: "Jess"
-            - name: "Brooke"
-              value: "Brooke"
-            - name: "Charlotte"
-              value: "Charlotte"
-            - name: "Jenni"
-              value: "Jenni"
+          element: "text"
+          label: "Title"
+          value: ""
