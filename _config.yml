@@ -19,3 +19,45 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+prose:
+  ignore:
+    - /\..*
+    - /_config.yml
+    - /atom.xml
+    - /LICENSE.md
+    - /_layouts
+    - /_includes
+    - /public
+    - /blog
+  metadata:
+    "":
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false

@@ -1,5 +1,8 @@
 ---
-published: false
+layout: post
+title:  "first post!"
+date:   2015-12-09 12:36:51 +0000
+categories: jekyll update
 ---
 
 ## A New Post
