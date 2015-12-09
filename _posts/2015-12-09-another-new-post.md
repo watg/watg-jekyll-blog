@@ -1,8 +1,10 @@
 ---
 layout: post
 published: true
-title: another new post
+title: another new post.markdown
+author: Jess
 ---
+
 
 
 ## A New Post
