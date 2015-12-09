@@ -21,14 +21,10 @@ github_username:  jekyll
 markdown: kramdown
 
 prose:
-  ignore:
-    - /\.*
-    - /_config.yml
-    - /about.md
-    - /LICENSE.md
-    - /_layouts
-    - /_includes
-    - /_sass
+  rooturl: '_posts'
+  # siteurl: ''
+  # relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  media: 'img'
   metadata:
     _posts:
       - name: "layout"
@@ -40,3 +36,23 @@ prose:
           element: "text"
           label: "Title"
           value: ""
+      - name: "author"
+        field:
+          element: "select"
+          label: "Who are you ?"
+          placeholder: "Choose your name"
+          options:
+            - name: "Jess"
+              value: "Jess"
+            - name: "Brooke"
+              value: "Brooke"
+            - name: "Jenni"
+              value: "Jenni"
+            - name: "Charlotte"
+              value: "Charlotte"
+      - name: "category"
+        field:
+          element: "multiselect"
+          label: "Add Categories"
+          placeholder: "Add Categories (e.g Saturday stitches)"
+          alterable: true
