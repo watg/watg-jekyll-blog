@@ -10,8 +10,8 @@ title: Wool and the Gand Blog
 email: info@woolandthegang.com
 description: > # this means to ignore newlines until "baseurl:"
   Wool and the Gang Knitting Kits for beginners, intermediate and advanced knitters. Buy Wool, Patterns, Yarn, Needles and many more knitting supplies.
-baseurl: "www.woolandthegang.com" # the subpath of your site, e.g. /blog
-url: "www.woolandthegang.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
 twitter_username: woolandthegang
 
 # Build settings
