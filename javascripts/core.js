@@ -1,6 +1,7 @@
 blogCore = {}
 var NavbarContent = ""; // navbar global object
 
+
 $( document ).ready(function() {
   blogCore.readyNavbar();
 });
