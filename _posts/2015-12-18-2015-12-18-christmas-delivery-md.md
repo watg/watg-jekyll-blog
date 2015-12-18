@@ -3,9 +3,9 @@ layout: post
 author: Jess
 category: 
   - christmas
-feature_image: adjusts prose config to include new feature image
+feature_image: "https://watg-blog.s3.amazonaws.com/2015/12/4Wyq5bItojrcKz1UWdYmhZYkAxriy9YT-fzlbXRNbyU.jpg"
 published: true
-title: "2015-12-18-christmas-delivery.md"
+title: "2015-12-18-christmas-delivery"
 ---
 
 
