@@ -5,9 +5,13 @@ var FooterContent = ""; // footer global object
 
 $( document ).ready(function() {
   blogCore.readyNavbar();
-  // blogCore.readyFooter();
+  blogCore.readyFooter();
 });
 
+function myFunction() {
+  console.log('I have been called!')
+  alert("The anchor part has changed!");
+}
 
 // --------------------  Nav Bar Starts --------------------------------
 
@@ -23,7 +27,7 @@ blogCore.readyNavbar = function() {
 blogCore.fetchNavBarContent = function() {
   var link = document.querySelector('link[class="watg-header"]');
   var content = link.import;
-  NavbarContent = content
+  NavbarContent = content;
 }
 
 // this takes HTML and slaps it into the nav bar bit of the page

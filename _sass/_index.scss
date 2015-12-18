@@ -25,5 +25,15 @@ body.index {
       }
     }
   }
+
+  .post:last-child {
+    margin-bottom: 30px;
+  }
+
+  .pagination {
+    text-align: center;
+    font-size: 24px;
+    color: #6000A3;
+  }
 }
 
