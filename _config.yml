@@ -61,7 +61,7 @@ prose:
           label: "Add Categories"
           placeholder: "Add Categories (e.g Saturday stitches)"
           alterable: true
-      - name: "feature-image"
+      - name: feature_image
         field:
           element: "text"
           label: "Add image URL"
