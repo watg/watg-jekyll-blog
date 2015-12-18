@@ -61,3 +61,9 @@ prose:
           label: "Add Categories"
           placeholder: "Add Categories (e.g Saturday stitches)"
           alterable: true
+      - name: "feature-image"
+        field:
+          element: "text"
+          label: "Add image URL"
+          placeholder: "https://watg-blog.s3.amazonaws.com/2015/12/Singapore_Botanic_Gardens_Cactus_Garden_2.jpg"
+          alterable: true
