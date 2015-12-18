@@ -1,0 +1,29 @@
+// Post pages
+body.index {
+  div.wrapper {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .post {
+    width: 50%;
+    float: right;
+    height: 450px;
+    background-size: cover;
+    float: left;
+    div.text {
+      padding: 10px 0;
+      text-align: center;
+      margin: 150px auto;
+      background-color: rgba(165,165,173,0.38);
+      h2 {
+        font-size: 36px;
+      }
+      span {
+        color: #DCDCDC;
+      }
+    }
+  }
+}
+
