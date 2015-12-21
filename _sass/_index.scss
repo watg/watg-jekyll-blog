@@ -7,18 +7,21 @@ body.index {
   }
 
   .post {
+    height: 700px;
     width: 50%;
-    float: right;
-    height: 450px;
-    background-size: cover;
     float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     div.text {
-      padding: 10px 0;
+      padding: 277px 0 0;
       text-align: center;
-      margin: 150px auto;
-      background-color: rgba(165,165,173,0.38);
-      h2 {
-        font-size: 36px;
+      height: 100%;
+      background-color: rgba(20, 18, 21, 0.68);
+      h2 a {
+        font-size: 42px;
+        line-height: normal;
+        color: rgb(226, 226, 226);
       }
       span {
         color: #DCDCDC;
@@ -26,14 +29,35 @@ body.index {
     }
   }
 
+  .post:first-child, .post:nth-child(4) {
+    width: 100%;
+  }
   .post:last-child {
     margin-bottom: 30px;
   }
 
   .pagination {
+    float: none;
+    position: absolute;
+    width: 100%;
     text-align: center;
     font-size: 24px;
     color: #6000A3;
+    bottom: 0;
+  }
+
+  // Mobile
+  @media screen and (max-width: 650px) {
+    .post {
+      height: 450px;
+      width: 100%;
+      div.text {
+        padding: 160px 0 0;
+        h2 a {
+          font-size: 30px;
+        }
+      }
+    }
   }
 }
 
