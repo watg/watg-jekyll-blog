@@ -1,13 +1,15 @@
-article.post {
+article.post-page {
   margin-right: 30px;
   margin-left: auto;
   text-align: center;
   color: #333;
+  height: 100%;
   a {
     color: #8224e3;
   }
-  header {
-    height: 100%;
+
+  div.post-header {
+    height: 700px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
