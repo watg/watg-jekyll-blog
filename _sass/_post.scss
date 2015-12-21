@@ -1,5 +1,43 @@
-.post {
-  h1 {
-    text-align: center;
+article.post {
+  margin-right: 30px;
+  margin-left: auto;
+  text-align: center;
+  color: #333;
+  a {
+    color: #8224e3;
+  }
+  header {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    .heading-text {
+      position: absolute;
+      top: 330px;
+      margin: 0 auto;
+      left: 10%;
+      right: 10%;
+      @media screen and (max-width: 715px) {
+        top: 200px;
+      }
+    }
+    h1.post-title {
+      margin: 0;
+      text-align: center;
+      color: #ffffff;
+      @media screen and (max-width: 480px) {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .post-content {
+    padding: 0 10%;
+    text-align: left;
+  }
+
+  .comments {
+    margin: 0 25%;
   }
 }

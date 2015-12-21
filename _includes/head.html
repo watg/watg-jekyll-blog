@@ -7,13 +7,13 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}"> <!-- This loads all the css, but in future this can be split out in the way I have done the JS -->
+  <!-- eventually - this needs to be split out in the app so we only pull core, fonts and nav specific stuff -->
+  <link rel="stylesheet" href="http://watg-production-herokuapp-com.global.ssl.fastly.net/assets/application-266a4eeabba2c5f22ba9c919e864930e.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-  <link rel="stylesheet" href="http://watg-production-herokuapp-com.global.ssl.fastly.net/assets/application-266a4eeabba2c5f22ba9c919e864930e.css">
-  <link rel="import" class="watg-header" href="//localhost:3000/watg_blog_header">
-  <link rel="import" class="watg-footer" href="//localhost:3000/watg_blog_footer">
+
 
   <script src='/javascripts/core.js' type="text/javascript"></script>
   {% if page.custom_js %}
@@ -21,6 +21,7 @@
     <script src='/javascripts/{{ js_file }}.js' type="text/javascript"></script>
     {% endfor %}
   {% endif %}
+  <!-- eventually - this needs to be split out in the app so we only pull in nav specific stuff -->
   <script type="text/javascript" src="http://watg-production-herokuapp-com.global.ssl.fastly.net/assets/application-4fa38155f48052f34c92950dd35193c9.js"></script>
 
 </head>
